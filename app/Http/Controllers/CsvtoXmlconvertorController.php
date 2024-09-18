@@ -37,7 +37,7 @@ class CsvtoXmlconvertorController extends Controller
         foreach ($data as $row) {
 
             if (count($row) !== 7) {
-                continue; 
+                continue;
             }
 
             [$productId, $brand, $displayName, $variantId, $color, $size, $isDefault] = $row;

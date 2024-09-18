@@ -7,7 +7,7 @@ use Tests\TestCase;
 class ProducTest extends TestCase
 {
     /**
-     * Test that the CSV to XML conversion endpoint correctly generates and 
+     * Test that the CSV to XML conversion endpoint correctly generates and
      * serves an XML file for download with the expected content and filename
      */
     public function test_it_can_convert_and_download_xml_correctly(): void
